@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    background-color: aquamarine;
+    height: 200px;
+}
+
+/* Solo se aplica display-flex al elemento PADRE no a los HIJOS. */
+.display-flex{ 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.col-6{
+    width: 50%;
+}
+
+.col-1{
+    width: 100%;
+}

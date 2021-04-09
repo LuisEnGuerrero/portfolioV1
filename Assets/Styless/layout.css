@@ -1,0 +1,49 @@
+/*.container {
+    width: 90%;
+    margin: auto;
+}*/
+.row {
+    /*display: contents;*/
+    flex-wrap:nowrap;
+}
+.col-2{
+    width: 16,66%;
+    padding: 10px;
+}
+.col-2-5 {
+    width: 29.19%;
+    padding: 10px;
+}
+.col-3 {
+    width: 25%;
+    padding: 10px;
+}
+.col-4 {
+    width: 33.33%;
+    padding: 10px;
+}
+.col-5 {
+    width: 40%;
+    padding: 10px;
+}
+.col-6 {
+    width: 50%;
+    padding: 10px;
+}
+.col-7 {
+    width: 60%;
+    padding: 10px;
+}
+.col-8 {
+    width: 66.66%;
+    padding: 10px;
+}
+.col-8-5 {
+    width: 70.81%;
+    padding: 10px;
+}
+.col-9 {
+    width: 75%;
+    padding: 10px;
+}
+

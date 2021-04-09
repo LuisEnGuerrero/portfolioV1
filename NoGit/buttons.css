@@ -1,0 +1,37 @@
+
+.button-white{
+    background-color: white;
+    border: violet;
+    font-weight: 100;
+
+}
+
+.button-blue{
+    background-color: blue;
+    border: white;
+}
+
+.button-red{
+    background-color: red;
+    border: white;
+}
+
+.button-yellow{
+    background-color: yellow;
+    border: white;
+}
+
+.button-black{
+    background-color: black;
+    border: white;
+    font-variation-settings: white;
+}
+
+.buttons{
+    border-radius: 6%;
+    border-color: crimson;
+    font-style: italic;
+    size: 12;
+    stop-color: cadetblue;
+    padding: 2% 6%;
+}

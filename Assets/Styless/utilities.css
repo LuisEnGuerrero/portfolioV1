@@ -1,0 +1,37 @@
+.display-flex {
+    display: flex;
+}
+.align-items-center {
+    align-items: center;
+}
+.elements-center {
+    display: inline;
+}
+.min-w-100-vh {
+    min-height: 100vh;
+}
+.font-weight-500 {
+    font-weight: 500;
+}
+.space-top {
+    margin-top: 10px;
+}
+.margin-0 {
+    margin: 0!important;
+}
+.margin-1 {
+    margin: 2ch;
+    align-items: center;
+    text-align: inherit;
+    font-size: small;
+    padding-top: 4%;
+    padding-block: 1%; 
+}
+.radius-47 {
+    border-radius: 47%;
+}
+.fill-80-pc {
+    display: flex;
+    object-fit: cover;
+    width: 31%;
+}

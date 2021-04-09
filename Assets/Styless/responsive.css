@@ -1,0 +1,104 @@
+@media(min-width: 900px){
+    body {
+        background-color: rgb(175, 175, 175);
+    }
+    .main-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(225, 230, 231);
+    }
+    .main-nav li {
+        display: inline-block;
+        align-content: center;
+    }
+    .main-nav a {
+        color: #454545;
+        font-weight: 700;
+        font-size: 80%;
+        padding: 10px 20px;
+        display: inline-block;
+    }
+    .container {
+        width: 90%;
+        margin: auto;
+        
+    }
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .row > div{
+        display: flex;
+        align-items: center;
+        min-height: 100vh;
+    }
+    .margin-1 {
+        margin: 1ch;
+        text-align: inherit;
+        font-size: x-large;
+        padding-top: 2%;
+        padding-block: 2%; 
+    }
+    h1 {
+        font-size: 2rem;
+        font-weight: bold;
+        margin-top: 10px;
+    }
+    p {
+        margin-top: 10px;
+    }
+    .image-fondo {
+        background-image: url("../images/pastomotors.jpg");
+        background-size: 90%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+}
+@media(max-width: 900px){
+    body {
+        background-color: #b1b4c3;
+    }
+    .image-fondo {
+        background-image: url("../images/pastomotors.jpg");
+        background-position: top;
+        background-repeat: no-repeat;
+        align-items: baseline;
+    }
+    .row > div{
+        display: inline;
+        /*align-items: baseline;
+        object-position:bottom;*/
+        margin-top: auto;
+        
+    }
+    .main-nav a {
+        color: #454545;
+        font-weight: 600;
+        font-size: small;
+        padding: 10px 20px;
+        /*display: inline-block;*/
+    }
+    .cabecera > div{
+        align-items: top;
+        padding: 10px 20px;
+        object-position:center;
+    }
+    /*div .intro-greeting{
+        align-items: baseline;
+    }*/
+    .overlay {
+        top: 0;
+        bottom:0;
+        right: 0;
+        background-color: rgba(87, 43, 23, 0.322);
+        
+    }
+    .container {
+        width: 98%;
+        margin: unset;
+
+    }
+
+}
