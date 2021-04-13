@@ -4,7 +4,7 @@
         margin-top: 5%;
     }
     .intro {
-        min-height: 120vh;
+        min-height: 70vh;
     }
     .main-nav {
         display: flex;
@@ -63,7 +63,7 @@
         align-items: top;
         padding: 10px 20px;
         object-position:center;
-        margin-top: 48%;
+        margin-top: 38%;
     }
     .col-md-4 {
         width: 33.333%;
