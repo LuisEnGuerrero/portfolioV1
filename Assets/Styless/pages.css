@@ -22,10 +22,11 @@
 .text-container h4 {
 /*    position: absolute;*/
     top: -50px;
+    text-justify: distribute;
 }
 .img-icons {
 /*    position: absolute;*/
-    top: -50px;
+    top: -30px;
     border:dimgrey;
     border-style:outset;
     align-content: center;
