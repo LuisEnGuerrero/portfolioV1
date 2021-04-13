@@ -29,9 +29,55 @@
 }
 .radius-47 {
     border-radius: 47%;
+    border-color: #293DCB;
+    border-style: solid;
+    box-shadow: whitesmoke;
 }
 .fill-80-pc {
     display: flex;
     object-fit: cover;
     width: 31%;
+}
+.top-zero {
+    margin-top: 0%;
+}
+.top-sub-zero {
+    margin-top: 150px;
+}
+.display-flex {
+    display: flex;
+}
+.align-items-center {
+    align-items: center;
+}
+.justify-content-center {
+    justify-content: center;
+}
+.justify-content-space-between {
+    justify-content: space-between;
+}
+.width-90{
+    width: 90%;
+}
+.position-relative {
+    position: relative;
+}
+.position-absolute {
+    position: absolute;
+}
+.main-stop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: rgb(175, 175, 175);
+}
+.padding-10 {
+    padding: 10%;
+}
+.text-center {
+    text-align: center;
+}
+.float {
+    float: left;
 }

@@ -20,21 +20,26 @@
     <!-- <Relacionando el Favicon de la página:> -->
     <link rel="icon" sizes="128x128" href="./Assets/images/web_development.png">
     <link rel="shortcut icon" href="./Assets/images/web_development.png" type="image/x-icon"/>
+
+    <!-- <Relacion de páginas de Facebook en esta página:> -->
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v10.0&appId=101638355140&autoLogAppEvents=1" nonce="nVlDldbn">
+    </script>
   
 </head>
 <body>
 
     <!-- <Relacionando la Barra de Navegación de la página:> -->
-    <div class="container">
+    <div class="container main-stop">
         <nav>
-            <div class="margin-1 logo">
+            <div class="margin-1 logo position-1">
                 <h3>
                     <ul>
                         Mi Portafolio
                         :    Luis Enrique Guerrero
                     </ul>
                 </h3>
-                <div>
+                <div class="col-2">
                     <img class="radius-47" src="./Assets/images/perfilB12px.png" alt="Luis Enrique Guerrero">
                 </div>
             </div>
@@ -49,7 +54,7 @@
                         <a href="#Experiencias">Experiencias</a>
                     </li>
                     <li>
-                        <a href="#Conocimientos">Conocimientos</a>
+                        <a href="#Servicios">Servicios</a>
                     </li>
                     <li>
                         <a href="#AudioVisual">Canal AudioVisual</a>
@@ -71,7 +76,7 @@
     <!-- <Fin de la Barra de Navegación de la página> -->
 
     <!-- <Sección de Perfil de la página:> -->
-    <a name="Perfil"></a>
+        <a class="top-sub-zero" name="Perfil"></a> 
         <section class="intro image-fondo">
             <div class="container row">
                 <div class="col-6 cabecera">
@@ -95,7 +100,7 @@
        </section>
 
     <!-- <Sección de Experiencias de la página:> -->
-        <a name="Experiencias"></a>
+        <a class="top-sub-zero" name="Experiencias"></a>
         <section class="intro">
             <div class="container row">
                 <div class="col-2-5 cabecera fill-80-pc">
@@ -111,14 +116,95 @@
             </div>
        </section>
 
-       <!-- <Sección de Conocimientos de la página:> -->
-        <a name="Conocimientos"></a>
-        <section class="intro">
-            <div class="container row">
-                <div class="col-6 cabecera">
+       <!-- <Sección de Servicios de la página:> -->
+        <a class="margin-1" name="Servicios"></a>
+        <section class="width-90 container padding-10">
+            <div>
+                <div>
                     <div>
-                        Seccion de Conocimientos
+                        <h3>
+                            Mis Servicios
+                        </h3>
+                        <p>
+                            Gracias a mi experiencia y conocimientos adquiridos durante los ultimos años puedo ayudarte con una de esas especialidades.
+                        </p>
                     </div>
+                        <table class="space-top width-90 justify-content-space-between display-flex align-items-center">
+                            <tr>
+                                <td class="col-4">
+                                    <div>
+                                        <img class="img-icons" src="./Assets/images/web_development.png" alt="" width=38 height=38> 
+                                        <div class="text-container">
+                                        <h4>
+                                        Desarrollo Web
+                                        </h4>
+                                        <p>
+                                        Te ayudo a elaborar y estructurar tu proyecto de Vitrina Virtual
+                                        </p>
+                                    </div>
+                                </td>
+                                <td class="col-4">
+                                    <img class="img-icons" src="./Assets/images/DigitalMarket.jfif" alt="" width=38 height=38>
+                                    <div class="text-container">
+                                        <h4>
+                                        Marketing Digital
+                                        </h4>
+                                        <p>
+                                        Juntos podemos identificar tu mejor estrategia de Negocio en Redes Sociales.
+                                        </p>
+                                    </div>
+                                </td>
+                                <td class="col-4">
+                                    <img class="img-icons" src="./Assets/images/DataEnginner.png" alt="" width=38 height=38>
+                                    <div class="text-container">
+                                        <h4>
+                                        Ciencia de Datos
+                                        </h4>
+                                        <p>
+                                        Encontramos la mejor forma de sacarle provecho a tus Almacenes de Datos
+                                        </p>
+                                    </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="col-4">
+                                    <div>
+                                        <img class="img-icons" src="./Assets/images/RespDesing.png" alt="" width=38 height=38>
+                                        <div class="text-container">
+                                        <h4>
+                                        Responsive Desing
+                                        </h4>
+                                        <p>
+                                        Con un diseño amigable podemos llegar a otro nivel en tu Vitrina Virtual adaptandola a múltiples plataformas.
+                                        </p>
+                                    </div>
+                                </td>
+                                <td class="col-4">
+                                    <img class="img-icons" src="./Assets/images/AppDevelop.jfif" alt="" width=38 height=38>
+                                    <div class="text-container">
+                                        <h4>
+                                        Desarrollo de App
+                                        </h4>
+                                        <p>
+                                        Desarrollamos la App apropiada para tu negocio
+                                        </p>
+                                    </div>
+                                </td>
+                                <td class="col-4">
+                                    <img class="img-icons" src="./Assets/images/VideoEdit.png" alt="" width=38 height=38>
+                                    <div class="text-container">
+                                        <h4>
+                                        Edición de Video
+                                        </h4>
+                                        <p>
+                                        Creamos y editamos tus videos para llegar al público adecuado con el mensaje correcto
+                                        </p>
+                                    </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
                 </div>
             </div>
        </section>
@@ -126,13 +212,84 @@
        <!-- <Sección de AudioVisual de la página:> -->
         <a name="AudioVisual"></a>
         <section class="intro">
-            <div class="row">
-                <div class="col-6 cabecera">
+            <div class="container row align-items-center justify-content-center">
+                <!-- <Sección de Facebook: Poetas Resucitados> -.-> PENDIENTE POR CORREGIR ERRORES DE DISEÑO
+                <div class="col-4 cabecera">
                     <div>
-                        Seccion de AudioVisual
+                        <div class="fb-page fb-position" data-href="https://www.facebook.com/poetasresucitados/" data-tabs="timeline" data-width="" data-height="" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false">
+                            <blockquote cite="https://www.facebook.com/poetasresucitados/" class="fb-xfbml-parse-ignore">
+                                <a href="https://www.facebook.com/poetasresucitados/">
+                                    El Club de los Poetas Resucitados
+                                </a>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+                <!-- <Sección de Facebook: Escuela Zairtre> -.->
+                <div class="col-4 cabecera">
+                    <div>
+                        <div class="fb-page fb-position" data-href="https://www.facebook.com/EscuelaZairtre" data-tabs="timeline" data-width="" data-height="" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false">
+                            <blockquote cite="https://www.facebook.com/EscuelaZairtre" class="fb-xfbml-parse-ignore">
+                                <a href="https://www.facebook.com/EscuelaZairtre">
+                                    Escuela Zairtre
+                                </a>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+                <!-- <Sección de Facebook: Chloe Moretz> -.->
+                <div class="col-4 cabecera">
+                    <div>
+                        <div class="fb-page fb-position" data-href="https://www.facebook.com/chfromchloe" data-tabs="timeline" data-width="" data-height="" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false">
+                            <blockquote cite="https://www.facebook.com/chfromchloe" class="fb-xfbml-parse-ignore">
+                                <a href="https://www.facebook.com/chfromchloe">
+                                    I Like to Chloë Moretz at The Vampire Chronicles TV Series
+                                </a>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container row align-items-center justify-content-center">
+                <!-- <Sección de YouTube: VirtualBox> -->
+                <div class="col-4 cabecera">
+                    <div>
+                        <iframe width="100%" height="56,25%" src="https://www.youtube.com/embed/PTPZImJ0eM8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+                <!-- <Sección de YouTube: Mantenimiento PC> -->
+                <div class="col-4 cabecera">
+                    <div>
+                        <iframe width="100%" height="56,25%" src="https://www.youtube.com/embed/ZUAHcW2o1vY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+                <!-- <Sección de YouTube: Clean the Computer> -->
+                <div class="col-4 cabecera">
+                    <div>
+                        <iframe width="100%" height="56,25%" src="https://www.youtube.com/embed/jbIpzpsEzog" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                        </iframe>
                     </div>
                 </div>
             </div>
        </section>
-</body>
+
+       <!-- <Sección de Pie de página:> -->
+        <div class="footer"> 
+           <h4>
+              Chachagüí - Nariño - Colombia 
+           </h4>
+           <!-- Contador de visitas -->
+            <p>
+                <a href="#Perfil" title="Gracias por tu visita!">
+                    <img style="border: 0px solid; display: inline;" alt="contador de visitas" src="http://www.websmultimedia.com/contador-de-visitas.php?id=294836">
+                </a>
+            </p>
+            <!-- Fin Contador de visitas -->
+           <p>
+               <script>fechaActual</script>
+           </p>
+        </div>
+    </body>
 </html>

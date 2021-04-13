@@ -1,6 +1,10 @@
 @media(min-width: 900px){
     body {
         background-color: rgb(175, 175, 175);
+        margin-top: 5%;
+    }
+    .intro {
+        min-height: 120vh;
     }
     .main-nav {
         display: flex;
@@ -31,7 +35,7 @@
     .row > div{
         display: flex;
         align-items: center;
-        min-height: 100vh;
+        min-height: 10%;
     }
     .margin-1 {
         margin: 1ch;
@@ -53,52 +57,98 @@
         background-size: 90%;
         background-position: center;
         background-repeat: no-repeat;
+        margin-top: 14%;
     }
-    
+    .cabecera > div{
+        align-items: top;
+        padding: 10px 20px;
+        object-position:center;
+        margin-top: 48%;
+    }
+    .col-md-4 {
+        width: 33.333%;
+    }
+    .text-container {
+        display: flex;
+        font-display: unset;
+        align-items: center;
+        justify-items: center;
+    }
+    .logo {
+        display: flex;
+        justify-content: space-between;
+    }
+    .position-1 {
+        position: relative;
+    } 
+    .fb-position {
+        position: absolute;
+        display: inline-flex;
+        top: 10%;
+    }
+    td {
+        float:unset;
+        display:inline-table;
+        align-items: center;
+        justify-content: center;
+        font-size:large;
+        text-align: center;
+        line-height: 150%;
+        width: 60%;
+    }
+
 }
 @media(max-width: 900px){
     body {
         background-color: #b1b4c3;
     }
+/*    .intro {
+        min-height: 120vh;
+    }*/
     .image-fondo {
         background-image: url("../images/pastomotors.jpg");
         background-position: top;
         background-repeat: no-repeat;
+        background-size: 95%;
+        margin-top: 75%;
         align-items: baseline;
     }
     .row > div{
         display: inline;
-        /*align-items: baseline;
-        object-position:bottom;*/
         margin-top: auto;
-        
     }
     .main-nav a {
         color: #454545;
         font-weight: 600;
         font-size: small;
         padding: 10px 20px;
-        /*display: inline-block;*/
     }
     .cabecera > div{
         align-items: top;
         padding: 10px 20px;
         object-position:center;
+        margin-top: 18%;
     }
-    /*div .intro-greeting{
-        align-items: baseline;
-    }*/
     .overlay {
         top: 0;
         bottom:0;
         right: 0;
-        background-color: rgba(87, 43, 23, 0.322);
+        background-color: rgba(87, 43, 23, 0.333);
         
     }
-    .container {
+/*    .container {
         width: 98%;
-        margin: unset;
-
+    /*    margin: unset;
+    }*/
+    .logo {
+        width: 60%;
     }
-
+    .fb-position {
+        position: absolute;
+        display: inline-flex;
+        top: 10%;
+    }
+    td {
+        text-align: center;
+    }
 }

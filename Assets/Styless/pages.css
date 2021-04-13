@@ -1,8 +1,35 @@
 /* ================================ Index/home ================================== */
 /* ================================ Intro ================================== */
-.intro {
-    min-height: 500px;;
-}
+
 .intro-greeting {
     font-size: 1.2rem;
+}
+.text-container {
+    border: solid 8px #A9B1EA;
+    background-color: whitesmoke;
+    display: inline-block;
+/*    position: relative;*/
+    width: 100%;
+    height: 350px;
+    border-radius: 15%;
+}
+
+.text-container h3 {
+    color: midnightblue;
+/*    position: absolute;*/
+    top: -50px;
+}
+.text-container h4 {
+/*    position: absolute;*/
+    top: -50px;
+}
+.img-icons {
+/*    position: absolute;*/
+    top: -50px;
+    border:dimgrey;
+    border-style:outset;
+    align-content: center;
+    background-color: white;
+    border-radius: 15%;
+    padding: 4px 4px;
 }

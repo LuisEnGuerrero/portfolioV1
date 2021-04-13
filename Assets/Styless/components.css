@@ -20,7 +20,11 @@
   color: black;
   text-shadow: white 3px 3px 3px;
 }
-.logo {
-    display: flex;
-    justify-content: space-between;
+
+/* FOOTER */
+.footer {
+    background: rgb(225, 230, 231);
+    padding: 2rem 0;
+    text-align: center;
+    margin-top: 4rem;
 }
