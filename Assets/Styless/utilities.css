@@ -81,3 +81,9 @@
 .float {
     float: left;
 }
+.text-red {
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;
+}
